@@ -1,0 +1,9 @@
+def hello(): #defining a function named hello
+     print("hello") #body of a function to be executed
+
+ def main(): #defining main function
+     hello() #calling the hole function
+
+if __name__ == "_main_": #if the given module is the main module
+     main() #call the main funtion and print "hello"
+              
