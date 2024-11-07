@@ -1,0 +1,8 @@
+def odd_or_even(): #defining the function.
+    number = float(input("Enter a number: ")) #typecasted it as afloat to compute larger values as an input
+    if number % 2 == 0: #if the input is divisable by 2 and returns 0 as the reminder, its an even integer 
+        return("Given number is even") #if the input is even, exit the function and return the string to where the function was called 
+    else:
+        return("Given number is odd") #else return the given string 
+ user_input = odd_or_even() #calling the function 
+print(user_input) #compute and display that either the input is odd or even
